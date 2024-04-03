@@ -42,7 +42,7 @@ Once that is done, do the following command, also in the root directory of the p
 In the terminal in the root directory of the project do the following command:<br>
 **Windows**<br>
 `javac -cp ".;aicme4j.jar;ai.jar" src\ie\atu\sw\*.java`<br>
-**MAC/Linux**<br>
+**Mac/Linux**<br>
 `javac -cp ".:aicme4j.jar:ai.jar" src/ie/atu/sw/*.java`<br>
 This command does the following:
 
@@ -54,6 +54,6 @@ src\ie\atu\sw\*.java tells the Java compiler (javac) to compile all .java files 
 In the same terminal window as before, do the following: <br>
 **Windows**<br>
 `java -cp ".;src;aicme4j.jar;ai.jar" ie.atu.sw.Runner`<br>
-**MAC/Linux**<br>
+**Mac/Linux**<br>
 `java -cp ".:src:aicme4j.jar:ai.jar" ie.atu.sw.Runner`<br>
 This command sets the classpath to include the compiled classes in the src directory, as well as the external JARs, and then runs the Runner class.
