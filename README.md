@@ -40,14 +40,20 @@ Once that is done, do the following command, also in the root directory of the p
 ### **Step 3: Jar Files - SET CLASSPATH:**
 
 In the terminal in the root directory of the project do the following command:<br>
+**Windows**<br>
 `javac -cp ".;aicme4j.jar;ai.jar" src\ie\atu\sw\*.java`<br>
+**MAC/Linux**<br>
+`javac -cp ".:aicme4j.jar:ai.jar" src/ie/atu/sw/*.java`<br>
 This command does the following:
 
-- cp ".;aicme4j.jar;ai.jar" sets the classpath to include the current directory (.), as well as the aicme4j.jar and ai.jar files. These are necessary as the Java files depend on classes and libraries contained within these JAR files.
+- cp ".;aicme4j.jar;ai.jar" || ".:aicme4j.jar:ai.jar" sets the classpath to include the current directory (.), as well as the aicme4j.jar and ai.jar files. These are necessary as the Java files depend on classes and libraries contained within these JAR files.
 src\ie\atu\sw\*.java tells the Java compiler (javac) to compile all .java files located in the src\ie\atu\sw\ directory.
 
 ### **Step 4: Running the Application:**
 
 In the same terminal window as before, do the following: <br>
+**Windows**<br>
 `java -cp ".;src;aicme4j.jar;ai.jar" ie.atu.sw.Runner`<br>
+**MAC/Linux**<br>
+`java -cp ".:src:aicme4j.jar:ai.jar" ie.atu.sw.Runner`<br>
 This command sets the classpath to include the compiled classes in the src directory, as well as the external JARs, and then runs the Runner class.
