@@ -45,7 +45,6 @@ This command does the following:
 
 - cp ".;aicme4j.jar;ai.jar" sets the classpath to include the current directory (.), as well as the aicme4j.jar and ai.jar files. These are necessary as the Java files depend on classes and libraries contained within these JAR files.
 src\ie\atu\sw\*.java tells the Java compiler (javac) to compile all .java files located in the src\ie\atu\sw\ directory.
-<br>
 
 ### **Step 4: Running the Application:**
 
