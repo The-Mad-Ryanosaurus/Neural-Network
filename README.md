@@ -1,6 +1,6 @@
 # **Artificial Intelligence**
 
-### Neural Network - Autopilot Project 
+### Neural Network - Autopilot Project
 
 ---
 
@@ -27,7 +27,16 @@ In order to clone the github repository, use the following command:<br>
 `git clone https://github.com/The-Mad-Ryanosaurus/Neural-Network.git`<br>
 The HTTP link can be found in the green code button at the top of this page also, under the HTTPS tab.
 
-### **Step 2: Running the Application:**
+### **Step 3: Jar Files:**
+
+Add the following .jar file to the projects root directory. Unzip the file first:
+`https://drive.google.com/file/d/1idkDpnAcCP_OnjjlShZEGK4zfp6_isJs/view?usp=drive_link`
+<br>
+Once that is done, do the following command, also in the root directory of the project, to create an ai.jar:
+`jar –cf ai.jar *`
+<br>
+
+### **Step 3: Running the Application:**
 
 Once the project has been cloned, enter the root directory and use the following commands:<br>
 **Windows** (use semi-colons as delimiters)
@@ -35,4 +44,3 @@ Once the project has been cloned, enter the root directory and use the following
 <br>
 **Linux / Mac** (use colons as delimiters)
 `java -cp ".:./aicme4j.jar:./ai.jar" ie.atu.sw.Runner`
-
