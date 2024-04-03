@@ -27,12 +27,12 @@ In order to clone the github repository, use the following command:<br>
 `git clone https://github.com/The-Mad-Ryanosaurus/Neural-Network.git`<br>
 The HTTP link can be found in the green code button at the top of this page also, under the HTTPS tab.
 
-### **Step 3: Jar Files:**
+### **Step 2: Jar Files:**
 
 Add the following .jar file to the projects root directory. Unzip the file first:
 `https://drive.google.com/file/d/1idkDpnAcCP_OnjjlShZEGK4zfp6_isJs/view?usp=drive_link`
 <br>
-Once that is done, do the following command, also in the root directory of the project, to create an ai.jar:
+Once that is done, do the following command, also in the root directory of the project, to create an ai.jar:<br>
 `jar –cf ai.jar *`
 <br>
 
