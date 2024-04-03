@@ -37,7 +37,7 @@ Once that is done, do the following command, also in the root directory of the p
 `jar –cf ai.jar *`
 <br>
 
-### **Step 3: :*Jar Files - SET CLASSPATH:**
+### **Step 3: Jar Files - SET CLASSPATH:**
 
 In the terminal in the root directory of the project do the following command:<br>
 `javac -cp ".;aicme4j.jar;ai.jar" src\ie\atu\sw\*.java`<br>
