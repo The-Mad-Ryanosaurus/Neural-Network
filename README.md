@@ -29,8 +29,8 @@ The HTTP link can be found in the green code button at the top of this page also
 
 ### **Step 2: Jar Files:**
 
-Add the following .jar file to the projects root directory. Unzip the file first:
-[aicme4j.jar](https://drive.google.com/file/d/1idkDpnAcCP_OnjjlShZEGK4zfp6_isJs/view?usp=drive_link)
+Add the following aicme4j.jar file to the projects root directory.<br>
+[Download the aicme4j.jar here](https://drive.google.com/file/d/1idkDpnAcCP_OnjjlShZEGK4zfp6_isJs/view?usp=drive_link)
 <br>
 Once that is done, do the following command, also in the root directory of the project, to create an ai.jar:<br>
 `jar –cf ai.jar *`
