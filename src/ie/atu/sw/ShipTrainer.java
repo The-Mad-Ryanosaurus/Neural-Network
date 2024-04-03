@@ -22,8 +22,8 @@ public class ShipTrainer {
     public void startTraining() throws Exception {
         System.out.println("Starting training process"); 
         try {
-            double[][] inputData = readFromCSV("../resources/data.csv"); // Read input data from CSV file
-            double[][] expectedOutput = readFromCSV("../resources/expected.csv"); // Read expected output data from CSV file
+            double[][] inputData = readFromCSV("./resources/data.csv"); // Read input data from CSV file
+            double[][] expectedOutput = readFromCSV("./resources/expected.csv"); // Read expected output data from CSV file
 
             System.out.println("Expected output length: " + expectedOutput[0].length); // Print length of expected output
 
@@ -34,7 +34,7 @@ public class ShipTrainer {
                     .hiddenLayer("Hidden", Activation.TANH, 5) // Hidden layer with 5 neurons and TANH activation function
                     .outputLayer("Output", Activation.TANH, 1) // Output layer with 1 neuron and TANH activation function
                     .train(inputData, expectedOutput, 0.001, 0.93, 50000, 0.00001, Loss.SSE) // Train the network with specified parameters
-                    .save("../resources/trainedShipModel.data") // Save the trained model to a file
+                    .save("./resources/trainedShipModel.data") // Save the trained model to a file
                     .build(); // Build the neural network
 
             System.out.println("Trained Neural Network: " + neuralNet); // Print trained neural network

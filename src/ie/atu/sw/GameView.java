@@ -76,7 +76,7 @@ public class GameView extends JPanel implements ActionListener{
 		setDoubleBuffered(true);
 		
 		try {
-			String filename = "../resources/trainedShipModel.data";
+			String filename = "./resources/trainedShipModel.data";
 			nn = Aicme4jUtils.load(filename);
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -223,7 +223,7 @@ public class GameView extends JPanel implements ActionListener{
 			 * System.out.println(Arrays.toString(trainingRow));
 			 */
 			if (!auto) {
-				sampleAndSave("../resources/data.csv", "../resources/expected.csv");
+				sampleAndSave("./resources/data.csv", "./resources/expected.csv");
 			}
 		}
 	}
